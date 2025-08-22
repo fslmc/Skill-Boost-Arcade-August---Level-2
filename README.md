@@ -1,9 +1,10 @@
-# Cara Mengatasi Deployment VM Instance neo4j Gagal di Lab "Getting Started with Neo4J Enterprise on Google Cloud"
+# Cara Mengatasi Deployment VM Instance neo4j Gagal di Lab "Getting Started with Neo4J Enterprise on Google Cloud" (GSP1104)
 
-Buka deployment yang gagal pada "deployment manager" di google cloud, lalu pada overview, buka config
+Sesuaikan variabel berikut dengan konfigurasi deployment yang gagal. <br>
+*Untuk melihat konfigurasi-nya, Deployment Manager > neo4j > overview > config*
 ```bash
 PROJECT_ID="your-project-id" #sesuaikan dengen id project
-ZONE="your-zone" #sesuaikan zone dengan yang didapat
+ZONE="your-zone" #sesuaikan zone dengan lab
 MACHINE_TYPE="e2-standard-4"
 DISK_SIZE="100"
 ```
