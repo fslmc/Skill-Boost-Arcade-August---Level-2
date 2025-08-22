@@ -41,4 +41,4 @@ sudo systemctl enable neo4j
 sudo systemctl start neo4j
 ```
 
-Sekarang neo4j seharusnya sudah bisa dibuka pada {External_Ip":7474}, dan dapat dilakukan login dengan username default "neo4j" dan password default "neo4j"
+Sekarang neo4j seharusnya sudah bisa dibuka pada {External_Ip}:7474, dan dapat dilakukan login dengan username default "neo4j" dan password default "neo4j"
